@@ -36,6 +36,7 @@ namespace SeleniumProject
             //Relative path
             string currentPath = Directory.GetCurrentDirectory();
 
+
             String path = Directory.GetParent(currentPath).Parent.FullName;
 
             //String[] path = Directory.GetDirectories(@"D:\Mine\Specflow\SeleniumProject\SeleniumProject\bin\Debug");
